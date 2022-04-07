@@ -1,0 +1,13 @@
+cz\upce\nnpia\be\entity\User.class
+cz\upce\nnpia\be\controller\EvaluationController.class
+cz\upce\nnpia\be\entity\Restaurant.class
+cz\upce\nnpia\be\entity\Role.class
+cz\upce\nnpia\be\controller\UserController.class
+cz\upce\nnpia\be\repository\EvaluationRepository.class
+cz\upce\nnpia\be\controller\RoleController.class
+cz\upce\nnpia\be\NNPIASemestralWorkApplication.class
+cz\upce\nnpia\be\entity\Evaluation.class
+cz\upce\nnpia\be\repository\RestaurantRepository.class
+cz\upce\nnpia\be\repository\RoleRepository.class
+cz\upce\nnpia\be\controller\RestaurantController.class
+cz\upce\nnpia\be\repository\UserRepository.class
