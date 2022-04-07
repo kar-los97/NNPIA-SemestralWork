@@ -35,7 +35,7 @@ public class UserController {
     }
 
     @GetMapping("/")
-    public String getUser(){
-        return "GET USER";
+    public User getUser(){
+        return new User();
     }
 }
