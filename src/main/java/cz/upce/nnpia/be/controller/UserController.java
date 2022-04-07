@@ -6,6 +6,7 @@ import cz.upce.nnpia.be.repository.RoleRepository;
 import cz.upce.nnpia.be.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
@@ -31,5 +32,10 @@ public class UserController {
         user.setRole(role);
 
         return userRepository.save(user);
+    }
+
+    @GetMapping("/")
+    public String getUser(){
+        return "GET USER";
     }
 }
