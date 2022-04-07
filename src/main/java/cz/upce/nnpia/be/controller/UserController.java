@@ -18,7 +18,7 @@ public class UserController {
     private RoleRepository roleRepository;
 
     @PostMapping("/user")
-    public void addUser(){
+    public User addUser(){
         Role role = new Role();
         role.setName("Admin");
         role = roleRepository.save(role);
@@ -30,6 +30,6 @@ public class UserController {
         user.setPassword("heslo");
         user.setRole(role);
 
-        userRepository.save(user);
+        return userRepository.save(user);
     }
 }
